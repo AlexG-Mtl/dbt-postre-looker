@@ -65,8 +65,8 @@ Follow these steps to set up your local repository and prepare for development:
 4. Convert data from `/input_data` to CSV, map it, and import using DBeaver.
 
 ### Week 3: Install dbt and Create Model
-1. `python -m venv C:\LABS\dbt_surf-env`
-2. Activate the environment: `C:\LABS\dbt_surf-env\Scripts\activate.bat`
+1. `python -m venv python -m venv C:\LABS\dbt_surf_env_01`
+2. Activate the environment: `C:\LABS\dbt_surf_env_01\Scripts\activate.bat`
 3. `pip install dbt-postgres`
 4. Navigate to project directory: `cd C:\LABS\dbt_surf`
 5. Initialize dbt project: `dbt init dbt_surf_prj`
