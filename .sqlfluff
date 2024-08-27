@@ -1,0 +1,7 @@
+[sqlfluff]
+templater = dbt
+dialect = postgres
+
+[sqlfluff:templater:dbt]
+project_dir = dbt_surf_0
+profiles_dir = C:\Users\alex\.dbt

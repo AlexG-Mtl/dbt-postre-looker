@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: surfalytics
+    database: SURFALYTICS_DW_AlexG7
+    schema: stg
+    tables:
+      - name: orders
+        description: "Raw order data from various sales channels."
+        columns:
+            - name: order_id
+              data_tests:
+                  - not_null
+
+      - name: people
+        description: "Information about customers and company representatives."
+
+      - name: returns
+        description: "Data on returned items and return reasons."
