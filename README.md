@@ -101,7 +101,7 @@ Follow these steps to set up your local repository and prepare for development:
   3. run `dbt test`
   4. run `dbt docs generate` and `dbt docs serve`
   5. `dbt run --profile dbt_surf_0 --target prod`
-  6.
+  6. a1
 
 
 ## Features
